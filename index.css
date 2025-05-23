@@ -1,0 +1,34 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Default Light Theme */
+.light-theme {
+   background-color: #f8f9fa;
+   color: #212529;
+ }
+
+ .dark-theme {
+   background-color: #212529;
+   color: #f8f9fa;
+ }
+.navbar-brand:hover {
+  color: red; /* Bootstrap primary color */
+
+}
+.nav-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000; /* default color */
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nav-link:hover {
+  color: #0d6efd; /* Bootstrap primary */
+  text-decoration: underline;
+}
+
